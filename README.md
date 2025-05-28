@@ -15,6 +15,14 @@ A decentralized and tamper-proof voting system built on the **Ethereum blockchai
 
 ---
 
+## 🧰 Tech Stack
+
+- **Blockchain**: Solidity, Ethereum, Ganache, Web3.js
+- **Frontend**: React.js
+- **Backend**: Node.js, Flask
+- **ML/Face Recognition**: dlib, OpenCV, sklearn
+- **Deployment**: Local development environment
+
 # Installation
 
 1. Install python3  
@@ -95,7 +103,7 @@ Dataset: Labelled faces in the wild [Download](http://vis-www.cs.umass.edu/lfw/#
 
 ### Face recognition
 * Generate 128-d embedding of each person's image in the dataset.
-* Train the various model for classification
+* Train multiple classification models such as SVC, KNN, and Random Forest.
 * Testing: Generate the embedding of the person you want to recognize and compute the similarity between test person's embedding and pre-computed embedding.
 
 
