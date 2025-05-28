@@ -1,8 +1,19 @@
-# Electoral-voting-system-using-blockchain
-Electoral voting system using blockchain and face recognition
+# Electoral Voting System using Blockchain
 
-# Face-recognition
-Face recognition with eye detection
+A decentralized and tamper-proof voting system built on the **Ethereum blockchain**, integrated with **face recognition-based voter verification** to ensure secure and fair elections.
+
+## 🔐 Blockchain Features (Solidity, Ethereum, Web3.js)
+
+- **Smart Contracts (Solidity):** Handle voter registration, candidate addition, vote casting, and result tallying with full transparency and immutability.
+- **Ethereum Network (Ganache):** Smart contracts deployed and tested locally for simulating decentralized environments.
+- **Web3.js Integration:** Frontend interacts with deployed smart contracts to read/write vote data in real time.
+
+## 👁️ Face Recognition & Anti-Spoofing (Python, Flask, dlib, OpenCV)
+
+- **Facial Verification:** Uses deep face embeddings and classifiers (SVC, KNN, Random Forest) for voter identification.
+- **Spoof Prevention:** Employs eye-blink detection using facial landmarks to distinguish real users from images or videos.
+
+---
 
 # Installation
 
