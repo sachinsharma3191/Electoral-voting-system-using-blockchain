@@ -75,10 +75,15 @@ sudo apt-get install python3
 
 ### Run
 
-```cd Frontend npm install```
+#### Frontend
+```cd Frontend``` 
+```npm install```
 
-```cd backend node Main.js```
+#### Backend
+```cd backend```
+```node Main.js```
 
+#### Face recognition service
 ```python3 facerecog_v3.py```
 
 Dataset: Labelled faces in the wild [Download](http://vis-www.cs.umass.edu/lfw/#download) and VGG face2 dataset [link](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/)
