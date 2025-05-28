@@ -105,3 +105,17 @@ Dataset: Labelled faces in the wild [Download](http://vis-www.cs.umass.edu/lfw/#
 3. [Shape predictor dataset](https://ibug.doc.ic.ac.uk/resources/facial-point-annotations/)
 4. [FaceNet](https://www.cv-foundation.org/openaccess/content_cvpr_2015/app/1A_089.pdf)
 5. [dlib pretrained models](https://github.com/davisking/dlib-models)
+
+
+---
+
+## 🛠️ Future Plans
+
+This project was originally developed in 2019–2020 as a foundational exploration of blockchain + computer vision. I am currently revisiting the architecture to:
+- Refactor smart contracts using Hardhat and Solidity v0.8+
+- Improve frontend UX and migrate to modern React
+- Explore integration with zk-SNARKs for voter privacy
+- Research DeFi use cases with similar identity-secure mechanisms
+
+
+
